@@ -1,0 +1,17 @@
+<h1  class="display-1">Cats fact</h1>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+                <th scope="col"> !</th>
+                <th scope= "col">All the fact</th>
+
+        </tr>
+        <tr *ngFor="let f of cats, let i=index">
+            <td>{{i + 1}}</td>
+            <td>{{f.text}}</td>
+        </thead>
+    </table>
+  
+</div>
+
